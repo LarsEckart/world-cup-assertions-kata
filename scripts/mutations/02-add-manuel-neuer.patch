@@ -1,0 +1,13 @@
+diff --git a/WorldCupAssertionsKata/WorldCup.cs b/WorldCupAssertionsKata/WorldCup.cs
+--- a/WorldCupAssertionsKata/WorldCup.cs
++++ b/WorldCupAssertionsKata/WorldCup.cs
+@@ -54,7 +54,7 @@ public sealed class WorldCup
+             "Germany",
+             "Die Mannschaft",
+             new[]
+             {
+-                new Player("Oliver Baumann", 1, Position.Goalkeeper),
++                new Player("Manuel Neuer", 1, Position.Goalkeeper),
+                 new Player("Jonathan Tah", 4, Position.Defender),
+                 new Player("Joshua Kimmich", 6, Position.Midfielder),
+                 new Player("Florian Wirtz", 17, Position.Midfielder),

@@ -1,0 +1,13 @@
+diff --git a/WorldCupAssertionsKata/WorldCup.cs b/WorldCupAssertionsKata/WorldCup.cs
+--- a/WorldCupAssertionsKata/WorldCup.cs
++++ b/WorldCupAssertionsKata/WorldCup.cs
+@@ -36,7 +36,7 @@ public sealed class WorldCup
+             "United States",
+             "USMNT",
+             new[]
+             {
+-                new Player("Matt Turner", 1, Position.Goalkeeper),
++                new Player("Matt Turner", 1, Position.Defender),
+                 new Player("Antonee Robinson", 5, Position.Defender),
+                 new Player("Tim Ream", 13, Position.Defender),
+                 new Player("Chris Richards", 3, Position.Defender),

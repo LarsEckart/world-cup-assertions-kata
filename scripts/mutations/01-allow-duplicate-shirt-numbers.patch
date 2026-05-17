@@ -1,0 +1,12 @@
+diff --git a/WorldCupAssertionsKata/Team.cs b/WorldCupAssertionsKata/Team.cs
+--- a/WorldCupAssertionsKata/Team.cs
++++ b/WorldCupAssertionsKata/Team.cs
+@@ -31,7 +31,7 @@ public sealed class Team
+             .Select(group => group.Key)
+             .ToArray();
+ 
+-        if (duplicateShirtNumbers.Length > 0)
++        if (duplicateShirtNumbers.Length < 0)
+         {
+             throw new ArgumentException("A team cannot have duplicate shirt numbers.", nameof(players));
+         }

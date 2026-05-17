@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WorldCupAssertionsKata.Tests/WorldCupAssertionsKata.Tests.csproj" />
+  <Project Path="WorldCupAssertionsKata/WorldCupAssertionsKata.csproj" />
+</Solution>

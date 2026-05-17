@@ -1,0 +1,12 @@
+diff --git a/WorldCupAssertionsKata/Game.cs b/WorldCupAssertionsKata/Game.cs
+--- a/WorldCupAssertionsKata/Game.cs
++++ b/WorldCupAssertionsKata/Game.cs
+@@ -74,7 +74,7 @@ public sealed class Game
+             return 1;
+         }
+ 
+-        return Winner() == team ? 3 : 0;
++        return Winner() == team ? 0 : 3;
+     }
+ 
+     private void EnsureResult()

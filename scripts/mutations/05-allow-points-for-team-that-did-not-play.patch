@@ -1,0 +1,12 @@
+diff --git a/WorldCupAssertionsKata/Game.cs b/WorldCupAssertionsKata/Game.cs
+--- a/WorldCupAssertionsKata/Game.cs
++++ b/WorldCupAssertionsKata/Game.cs
+@@ -64,7 +64,7 @@ public sealed class Game
+ 
+         if (team != HomeTeam && team != AwayTeam)
+         {
+-            throw new ArgumentException("Team did not play in this game.", nameof(team));
++            return 0;
+         }
+ 
+         if (IsDraw)
